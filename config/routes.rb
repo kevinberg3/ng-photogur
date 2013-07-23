@@ -6,8 +6,9 @@ NgPhotogur::Application.routes.draw do
   end
 
   resources :static, only: [:index]
+  # match '*anything' => "static#root"
 
-  root to: 'static#root'
+  root to: 'static#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
