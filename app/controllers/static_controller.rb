@@ -1,6 +1,6 @@
 class StaticController < ApplicationController
 
-  def index
+  def root
   end
 
 end
