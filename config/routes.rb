@@ -4,7 +4,10 @@ NgPhotogur::Application.routes.draw do
       resources :pictures
     end
   end
-  
+
+  resources :static, only: [:index]
+
+  root to: 'static#root'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
