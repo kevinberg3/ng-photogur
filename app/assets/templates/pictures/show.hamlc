@@ -1,1 +1,5 @@
-showw
+a{:href => "/pictures/show"} New Picture
+
+.picture{:"ng-repeat" => "picture in picture"}
+  %h2 {{picture.title}}
+  %img{:src => "{{picture.url}}"}
