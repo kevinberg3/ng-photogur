@@ -3,8 +3,9 @@
   $scope.picture = Picture.get id: $routeParams.id
 
   $scope.updatePicture = ->
+    $location.path('/pictures')
     $scope.picture.$update onPictureSave, onError
-
+    
   onPictureSave = ->
     $location.path('/pictures')
 

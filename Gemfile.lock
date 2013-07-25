@@ -51,6 +51,9 @@ GEM
     factory_girl_rails (4.2.1)
       factory_girl (~> 4.2.0)
       railties (>= 3.0.0)
+    font-awesome-sass-rails (3.0.2.2)
+      railties (>= 3.1.1)
+      sass-rails (>= 3.1.1)
     guard (1.6.2)
       listen (>= 0.6.0)
       lumberjack (>= 1.0.2)
@@ -150,6 +153,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   execjs
   factory_girl_rails
+  font-awesome-sass-rails
   guard
   guard-test
   haml

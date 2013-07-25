@@ -26,6 +26,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'font-awesome-sass-rails'
 gem 'bootstrap-sass', '~> 2.3.1.2'
 
 gem 'factory_girl_rails'

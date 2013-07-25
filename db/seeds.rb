@@ -22,3 +22,5 @@ Picture.create!(
   :artist => "John Wilhelm",
   :url    => "http://monicao.s3.amazonaws.com/bitmaker/girl.jpg"
 )
+
+pictures_seed.each {|p| Picture.create p}
